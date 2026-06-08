@@ -38,7 +38,7 @@ const StudentForm = ({s,setStudent,saved,err}) =>{
                     <span className="text-sm text-red-500 whitespace-nowrap">{err.age}</span>
                 </div>
                 <div>
-                    <button type="submit" className="bg-blue-900 rounded mt-9 md:mt-9 lg:mt-3 p-2  w-auto text-white font-bold hover:bg-blue-800">ADD</button>
+                    <button type="submit" className="bg-blue-900 rounded md:mt-9 lg:mt-3 px-15 py-2  w-auto text-white font-bold hover:bg-blue-800">ADD</button>
                 </div>
             </form>
         </div>
